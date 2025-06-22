@@ -20,6 +20,16 @@ func main() {
 		),
 	)
 
+	if err := server.SetupDB(); err != nil {
+		fmt.Printf("Error setting up database: %v\n", err)
+		return
+	}
+
+	if err := server.SetupMiddlewares(); err != nil {
+		fmt.Printf("Error setting up middlewares: %v\n", err)
+		return
+	}
+
 	if err := server.SetupRoutes(); err != nil {
 		fmt.Printf("Error setting up routes: %v\n", err)
 		return
@@ -29,6 +39,4 @@ func main() {
 		fmt.Printf("Error starting server: %v\n", err)
 		return
 	}
-
-	fmt.Println("Hello, world")
 }

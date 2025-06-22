@@ -1,0 +1,528 @@
+[92m[14:04:09 -      36.348µs][0m [94m[127.0.0.1:37146][0m [94meb0454bf-eb36-4b7c-a7cd-97bdb6d09c8d[0m 200 - [GET] - [93m/api/vX/health[0m - [94mhello=0&world=1 Host=localhost:8080&User-Agent=curl/8.5.0&Accept=*/*&Authorization=Bearer Hello world token  - {"message":"Service is running","status":"ok"}[0m
+[92m[14:04:10 -      15.429µs][0m [94m[127.0.0.1:37158][0m [94mec0454bf-eb36-4b7c-a7cd-97bdb6d09c8d[0m 200 - [GET] - [93m/api/vX/health[0m - [94mhello=0&world=1 User-Agent=curl/8.5.0&Accept=*/*&Authorization=Bearer Hello world token&Host=localhost:8080  - {"message":"Service is running","status":"ok"}[0m
+[92m[14:04:11 -       8.837µs][0m [94m[127.0.0.1:37170][0m [94med0454bf-eb36-4b7c-a7cd-97bdb6d09c8d[0m 200 - [GET] - [93m/api/vX/health[0m - [94mhello=0&world=1 Host=localhost:8080&User-Agent=curl/8.5.0&Accept=*/*&Authorization=Bearer Hello world token  - {"message":"Service is running","status":"ok"}[0m
+[92m[21:44:02 -      23.354µs][0m [94m[127.0.0.1:43710][0m [94m87d31883-57f8-4637-9222-f17f8e2a6a71[0m 404 - [GET] - [93m/ap[0m - [94m Host=localhost:8080&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive  - Cannot GET /ap[0m
+[92m[21:44:16 -       26.77µs][0m [94m[127.0.0.1:43710][0m [94m88d31883-57f8-4637-9222-f17f8e2a6a71[0m 400 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=0&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive  - {"error":"Invalid request body"}[0m
+[92m[21:45:23 -      36.849µs][0m [94m[127.0.0.1:58562][0m [94m89d31883-57f8-4637-9222-f17f8e2a6a71[0m 400 - [POST] - [93m/api/v1/books/create[0m - [94m Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=0&User-Agent=PostmanRuntime/7.43.4&Accept=*/*  - {"error":"Invalid request body"}[0m
+[92m[21:46:51 -      27.652µs][0m [94m[127.0.0.1:45834][0m [94m8ad31883-57f8-4637-9222-f17f8e2a6a71[0m 400 - [POST] - [93m/api/v1/books/create[0m - [94m Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=0&User-Agent=PostmanRuntime/7.43.4  - {"error":"Invalid request body"}[0m
+[92m[21:47:34 -      27.171µs][0m [94m[127.0.0.1:48364][0m [94m3b42adbc-7826-4e89-aad8-6f3a0344f994[0m 400 - [POST] - [93m/api/v1/books/create[0m - [94m Content-Length=0&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080  - {"error":"Invalid request body"}[0m
+[92m[21:49:26 -      325.61µs][0m [94m[127.0.0.1:48922][0m [94m3c42adbc-7826-4e89-aad8-6f3a0344f994[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=472&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4 {
+    
+    "name": "The Great Gatsby",
+    "author": {
+        "id": "1",
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"1","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[21:50:29 -     247.775µs][0m [94m[127.0.0.1:38392][0m [94m4b117b48-6f0b-4acc-89a0-6558503d242d[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=472 {
+    
+    "name": "The Great Gatsby",
+    "author": {
+        "id": "1",
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"1","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[21:50:32 -      83.977µs][0m [94m[127.0.0.1:38392][0m [94m4c117b48-6f0b-4acc-89a0-6558503d242d[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Connection=keep-alive&Host=localhost:8080&Content-Length=472&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br {
+    
+    "name": "The Great Gatsby",
+    "author": {
+        "id": "1",
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"1","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[21:50:32 -      138.99µs][0m [94m[127.0.0.1:38392][0m [94m4d117b48-6f0b-4acc-89a0-6558503d242d[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=472&Content-Type=application/json {
+    
+    "name": "The Great Gatsby",
+    "author": {
+        "id": "1",
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"1","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[21:59:50 -     126.377µs][0m [94m[127.0.0.1:57552][0m [94m4e117b48-6f0b-4acc-89a0-6558503d242d[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=472&Content-Type=application/json {
+    
+    "name": "The Great Gatsby",
+    "author": {
+        "id": "1",
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"1","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[21:59:51 -      91.211µs][0m [94m[127.0.0.1:57552][0m [94m4f117b48-6f0b-4acc-89a0-6558503d242d[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Content-Length=472&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080 {
+    
+    "name": "The Great Gatsby",
+    "author": {
+        "id": "1",
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","DeletedAt":null,"id":"1","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:21:21 -   26.201274ms][0m [94m[127.0.0.1:54862][0m [94meb70343d-f982-41d0-b945-12956f0b9d9b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=472&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    
+    "name": "The Great Gatsby",
+    "author": {
+        "id": "1",
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:21:22.045+05:30","UpdatedAt":"2025-06-22T22:21:22.045+05:30","DeletedAt":null,"id":"c69a06ea-6360-4fb8-815e-9fb8efe6ef4c","name":"The Great Gatsby","author_id":"1","author":{"ID":0,"CreatedAt":"2025-06-22T22:21:22.045+05:30","UpdatedAt":"2025-06-22T22:21:22.045+05:30","DeletedAt":null,"id":"1","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:47:28 -   21.220791ms][0m [94m[127.0.0.1:55830][0m [94mec70343d-f982-41d0-b945-12956f0b9d9b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=472 {
+    
+    "name": "The Great Gatsby",
+    "author": {
+        "id": "1",
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:47:28.257+05:30","UpdatedAt":"2025-06-22T22:47:28.257+05:30","DeletedAt":null,"id":"3397f4d5-4838-4f9f-848e-470ed4eecce9","name":"The Great Gatsby","author_id":"1","author":{"ID":0,"CreatedAt":"2025-06-22T22:47:28.257+05:30","UpdatedAt":"2025-06-22T22:47:28.257+05:30","DeletedAt":null,"id":"1","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:47:45 -   21.017678ms][0m [94m[127.0.0.1:55830][0m [94med70343d-f982-41d0-b945-12956f0b9d9b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/* {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:47:45.87+05:30","UpdatedAt":"2025-06-22T22:47:45.87+05:30","DeletedAt":null,"id":"5d9af9d4-fe15-45b1-af05-f3c92646b7fd","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"2025-06-22T22:47:45.869+05:30","UpdatedAt":"2025-06-22T22:47:45.869+05:30","DeletedAt":null,"id":"","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:47:46 -   20.932077ms][0m [94m[127.0.0.1:55830][0m [94mee70343d-f982-41d0-b945-12956f0b9d9b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:47:46.767+05:30","UpdatedAt":"2025-06-22T22:47:46.767+05:30","DeletedAt":null,"id":"9be46516-40ad-4536-8f38-c01b830d406a","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"2025-06-22T22:47:46.767+05:30","UpdatedAt":"2025-06-22T22:47:46.767+05:30","DeletedAt":null,"id":"","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:47:47 -   12.517595ms][0m [94m[127.0.0.1:55830][0m [94mef70343d-f982-41d0-b945-12956f0b9d9b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:47:47.578+05:30","UpdatedAt":"2025-06-22T22:47:47.578+05:30","DeletedAt":null,"id":"1614a192-4184-4073-9f97-2a0758e053bd","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"2025-06-22T22:47:47.577+05:30","UpdatedAt":"2025-06-22T22:47:47.577+05:30","DeletedAt":null,"id":"","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:47:48 -   19.977371ms][0m [94m[127.0.0.1:55830][0m [94mf070343d-f982-41d0-b945-12956f0b9d9b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:47:48.3+05:30","UpdatedAt":"2025-06-22T22:47:48.3+05:30","DeletedAt":null,"id":"d35cc957-b756-42c3-b0ef-3ee5efe47113","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"2025-06-22T22:47:48.3+05:30","UpdatedAt":"2025-06-22T22:47:48.3+05:30","DeletedAt":null,"id":"","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:47:48 -   20.617194ms][0m [94m[127.0.0.1:55830][0m [94mf170343d-f982-41d0-b945-12956f0b9d9b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:47:48.97+05:30","UpdatedAt":"2025-06-22T22:47:48.97+05:30","DeletedAt":null,"id":"7a70fa03-d002-4dad-a969-8d4883c99d91","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"2025-06-22T22:47:48.97+05:30","UpdatedAt":"2025-06-22T22:47:48.97+05:30","DeletedAt":null,"id":"","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:48:40 -   12.966467ms][0m [94m[127.0.0.1:44928][0m [94m7b07b4a6-45a1-4b49-828a-2938409f27fd[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:48:40.64+05:30","UpdatedAt":"2025-06-22T22:48:40.64+05:30","DeletedAt":null,"id":"10d184a3-20d2-40e2-9ef0-40775e8911c9","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"2025-06-22T22:48:40.64+05:30","UpdatedAt":"2025-06-22T22:48:40.64+05:30","DeletedAt":null,"id":"","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:48:41 -   25.499891ms][0m [94m[127.0.0.1:44928][0m [94m7c07b4a6-45a1-4b49-828a-2938409f27fd[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:48:42.082+05:30","UpdatedAt":"2025-06-22T22:48:42.082+05:30","DeletedAt":null,"id":"f66f49a9-c7a4-4a6b-9e8a-d64fcd69d1a0","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"2025-06-22T22:48:42.082+05:30","UpdatedAt":"2025-06-22T22:48:42.082+05:30","DeletedAt":null,"id":"","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:48:42 -   20.022894ms][0m [94m[127.0.0.1:44928][0m [94m7d07b4a6-45a1-4b49-828a-2938409f27fd[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:48:42.697+05:30","UpdatedAt":"2025-06-22T22:48:42.697+05:30","DeletedAt":null,"id":"8c5b49e3-7144-4f0a-95bc-105a473f8530","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"2025-06-22T22:48:42.696+05:30","UpdatedAt":"2025-06-22T22:48:42.696+05:30","DeletedAt":null,"id":"","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:48:43 -   20.873383ms][0m [94m[127.0.0.1:44928][0m [94m7e07b4a6-45a1-4b49-828a-2938409f27fd[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:48:43.231+05:30","UpdatedAt":"2025-06-22T22:48:43.231+05:30","DeletedAt":null,"id":"a5b23f99-aec7-4fe2-80f6-d29891a2c550","name":"The Great Gatsby","author_id":"","author":{"ID":0,"CreatedAt":"2025-06-22T22:48:43.23+05:30","UpdatedAt":"2025-06-22T22:48:43.23+05:30","DeletedAt":null,"id":"","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:06 -   38.088259ms][0m [94m[127.0.0.1:36446][0m [94mecac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:06.867+05:30","UpdatedAt":"2025-06-22T22:57:06.867+05:30","DeletedAt":null,"id":"b1ff0aeb-6159-4353-ba5b-f907f241519f","name":"The Great Gatsby","author_id":"d54d6cd0-7034-4888-8d1a-07afcd530c1b","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:06.846+05:30","UpdatedAt":"2025-06-22T22:57:06.846+05:30","DeletedAt":null,"id":"d54d6cd0-7034-4888-8d1a-07afcd530c1b","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:08 -    34.89118ms][0m [94m[127.0.0.1:36446][0m [94medac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:08.227+05:30","UpdatedAt":"2025-06-22T22:57:08.227+05:30","DeletedAt":null,"id":"e85ef832-be56-4d36-80df-9b57568342eb","name":"The Great Gatsby","author_id":"d4ac685b-0b2e-4440-b72c-3859d2a141cb","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:08.208+05:30","UpdatedAt":"2025-06-22T22:57:08.208+05:30","DeletedAt":null,"id":"d4ac685b-0b2e-4440-b72c-3859d2a141cb","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:09 -   30.833826ms][0m [94m[127.0.0.1:36446][0m [94meeac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:09.255+05:30","UpdatedAt":"2025-06-22T22:57:09.255+05:30","DeletedAt":null,"id":"ccd01251-3ce3-4730-9ce8-54127a9ffa6f","name":"The Great Gatsby","author_id":"02684b6e-9d12-48d7-99c5-d3fec282992b","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:09.235+05:30","UpdatedAt":"2025-06-22T22:57:09.235+05:30","DeletedAt":null,"id":"02684b6e-9d12-48d7-99c5-d3fec282992b","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:09 -   40.502416ms][0m [94m[127.0.0.1:36446][0m [94mefac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/* {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:09.884+05:30","UpdatedAt":"2025-06-22T22:57:09.884+05:30","DeletedAt":null,"id":"ed52b617-c782-4d01-8324-62fc9c323880","name":"The Great Gatsby","author_id":"ab60e960-6bec-4ca3-b42b-7a7e47de4d7e","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:09.859+05:30","UpdatedAt":"2025-06-22T22:57:09.859+05:30","DeletedAt":null,"id":"ab60e960-6bec-4ca3-b42b-7a7e47de4d7e","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:10 -   32.424244ms][0m [94m[127.0.0.1:36446][0m [94mf0ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:10.39+05:30","UpdatedAt":"2025-06-22T22:57:10.39+05:30","DeletedAt":null,"id":"4f5f6bc3-6384-4f80-9368-2c90dab2b291","name":"The Great Gatsby","author_id":"3f491029-d553-4f8f-aeb8-5d54412d3ee7","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:10.37+05:30","UpdatedAt":"2025-06-22T22:57:10.37+05:30","DeletedAt":null,"id":"3f491029-d553-4f8f-aeb8-5d54412d3ee7","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:10 -   36.196654ms][0m [94m[127.0.0.1:36446][0m [94mf1ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:10.898+05:30","UpdatedAt":"2025-06-22T22:57:10.898+05:30","DeletedAt":null,"id":"1a1107f0-ce68-4066-9867-8e54400c181a","name":"The Great Gatsby","author_id":"d478595c-cf59-4933-9c23-cf8946410bb2","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:10.873+05:30","UpdatedAt":"2025-06-22T22:57:10.873+05:30","DeletedAt":null,"id":"d478595c-cf59-4933-9c23-cf8946410bb2","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:11 -   32.494817ms][0m [94m[127.0.0.1:36446][0m [94mf2ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:11.416+05:30","UpdatedAt":"2025-06-22T22:57:11.416+05:30","DeletedAt":null,"id":"27505efc-c9e2-4ef1-855b-b0c50e3c3666","name":"The Great Gatsby","author_id":"da8a8387-2fdc-42e8-8f97-f94e3622b81a","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:11.396+05:30","UpdatedAt":"2025-06-22T22:57:11.396+05:30","DeletedAt":null,"id":"da8a8387-2fdc-42e8-8f97-f94e3622b81a","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:11 -   31.008604ms][0m [94m[127.0.0.1:36446][0m [94mf3ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:11.899+05:30","UpdatedAt":"2025-06-22T22:57:11.899+05:30","DeletedAt":null,"id":"43919e58-d4ed-489b-aeb6-36054e827ea5","name":"The Great Gatsby","author_id":"8ee97410-3234-443e-a974-fd358d6aef16","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:11.879+05:30","UpdatedAt":"2025-06-22T22:57:11.879+05:30","DeletedAt":null,"id":"8ee97410-3234-443e-a974-fd358d6aef16","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:12 -   32.478226ms][0m [94m[127.0.0.1:36446][0m [94mf4ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:12.415+05:30","UpdatedAt":"2025-06-22T22:57:12.415+05:30","DeletedAt":null,"id":"11a4f738-4336-4a3c-b7b2-2fd3e27d7d1c","name":"The Great Gatsby","author_id":"b3da59ad-76e1-4a2b-b661-6a28debf7c2f","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:12.393+05:30","UpdatedAt":"2025-06-22T22:57:12.393+05:30","DeletedAt":null,"id":"b3da59ad-76e1-4a2b-b661-6a28debf7c2f","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:12 -    32.31001ms][0m [94m[127.0.0.1:36446][0m [94mf5ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:12.905+05:30","UpdatedAt":"2025-06-22T22:57:12.905+05:30","DeletedAt":null,"id":"d901f704-be94-42ac-acfd-674986a138ab","name":"The Great Gatsby","author_id":"d3710fa0-fd80-4966-bc9b-199cf26bab5f","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:12.885+05:30","UpdatedAt":"2025-06-22T22:57:12.885+05:30","DeletedAt":null,"id":"d3710fa0-fd80-4966-bc9b-199cf26bab5f","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:13 -   30.779283ms][0m [94m[127.0.0.1:36446][0m [94mf6ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:13.452+05:30","UpdatedAt":"2025-06-22T22:57:13.452+05:30","DeletedAt":null,"id":"de999760-0470-4abb-b849-b093fb086dfa","name":"The Great Gatsby","author_id":"e620ad03-30f2-4914-8a1f-81b0075ad02a","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:13.432+05:30","UpdatedAt":"2025-06-22T22:57:13.432+05:30","DeletedAt":null,"id":"e620ad03-30f2-4914-8a1f-81b0075ad02a","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:15 -   36.300379ms][0m [94m[127.0.0.1:36446][0m [94mf7ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:15.427+05:30","UpdatedAt":"2025-06-22T22:57:15.427+05:30","DeletedAt":null,"id":"05d03199-1845-49f2-9675-84e6fabd29f9","name":"The Great Gatsby","author_id":"6ba512d2-60e9-46b8-bae4-77beee03c267","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:15.408+05:30","UpdatedAt":"2025-06-22T22:57:15.408+05:30","DeletedAt":null,"id":"6ba512d2-60e9-46b8-bae4-77beee03c267","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:16 -   37.383254ms][0m [94m[127.0.0.1:36446][0m [94mf8ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:16.133+05:30","UpdatedAt":"2025-06-22T22:57:16.133+05:30","DeletedAt":null,"id":"47989f18-3311-45e1-8091-f7a5152d435e","name":"The Great Gatsby","author_id":"691971a4-a98e-4e01-8748-e8a4798c4e13","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:16.113+05:30","UpdatedAt":"2025-06-22T22:57:16.113+05:30","DeletedAt":null,"id":"691971a4-a98e-4e01-8748-e8a4798c4e13","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:16 -   23.928909ms][0m [94m[127.0.0.1:36446][0m [94mf9ac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:16.722+05:30","UpdatedAt":"2025-06-22T22:57:16.722+05:30","DeletedAt":null,"id":"d9b5b23a-8459-4fb7-8e19-b505a9e79e48","name":"The Great Gatsby","author_id":"23ec9dea-5707-4fc1-94ac-5ce4875e7604","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:16.711+05:30","UpdatedAt":"2025-06-22T22:57:16.711+05:30","DeletedAt":null,"id":"23ec9dea-5707-4fc1-94ac-5ce4875e7604","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[22:57:17 -   31.272931ms][0m [94m[127.0.0.1:36446][0m [94mfaac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T22:57:17.232+05:30","UpdatedAt":"2025-06-22T22:57:17.232+05:30","DeletedAt":null,"id":"cf6eba78-219c-4522-843c-f845eaefa927","name":"The Great Gatsby","author_id":"5bf7e943-971d-4641-b73f-d8dc78b17cbe","author":{"ID":0,"CreatedAt":"2025-06-22T22:57:17.212+05:30","UpdatedAt":"2025-06-22T22:57:17.212+05:30","DeletedAt":null,"id":"5bf7e943-971d-4641-b73f-d8dc78b17cbe","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[23:00:12 -   32.469585ms][0m [94m[127.0.0.1:44974][0m [94mfbac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/* {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T23:00:13.145+05:30","UpdatedAt":"2025-06-22T23:00:13.145+05:30","DeletedAt":null,"id":"cdc06b68-4eb1-40cc-b00a-3cdcc74ab167","name":"The Great Gatsby","author_id":"e7e85efd-24fd-49a5-92c0-aeec227050dd","author":{"ID":0,"CreatedAt":"2025-06-22T23:00:13.125+05:30","UpdatedAt":"2025-06-22T23:00:13.125+05:30","DeletedAt":null,"id":"e7e85efd-24fd-49a5-92c0-aeec227050dd","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[23:00:14 -   37.438503ms][0m [94m[127.0.0.1:44974][0m [94mfcac0e07-7e65-4e98-b6aa-8842830e9209[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"ID":0,"CreatedAt":"2025-06-22T23:00:14.413+05:30","UpdatedAt":"2025-06-22T23:00:14.413+05:30","DeletedAt":null,"id":"83eb314f-0c33-4d6d-83ff-ea3fa7dede10","name":"The Great Gatsby","author_id":"100c37c1-65d7-4203-a595-d92a15f25430","author":{"ID":0,"CreatedAt":"2025-06-22T23:00:14.387+05:30","UpdatedAt":"2025-06-22T23:00:14.387+05:30","DeletedAt":null,"id":"100c37c1-65d7-4203-a595-d92a15f25430","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180},"message":"Book created successfully"}[0m
+[92m[23:00:26 -   31.196203ms][0m [94m[127.0.0.1:51608][0m [94m7ff31d8d-6ac2-4af4-b227-ebb720276f0b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"id":"9969d6bb-fc99-4222-87c9-738c123d1c47","name":"The Great Gatsby","author_id":"36e13c4e-ba89-4008-be98-ceb58ed7e865","author":{"id":"36e13c4e-ba89-4008-be98-ceb58ed7e865","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null,"created_at":"2025-06-22T23:00:26.977+05:30","updated_at":"2025-06-22T23:00:26.977+05:30","deleted_at":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180,"created_at":"2025-06-22T23:00:26.997+05:30","updated_at":"2025-06-22T23:00:26.997+05:30","deleted_at":null},"message":"Book created successfully"}[0m
+[92m[23:00:34 -   37.975883ms][0m [94m[127.0.0.1:51608][0m [94m80f31d8d-6ac2-4af4-b227-ebb720276f0b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"id":"85cc0256-a562-43a5-9bee-79c1215d3f5d","name":"The Great Gatsby","author_id":"cc108fbc-b9f6-4870-a78f-660235c61cd5","author":{"id":"cc108fbc-b9f6-4870-a78f-660235c61cd5","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null,"created_at":"2025-06-22T23:00:34.265+05:30","updated_at":"2025-06-22T23:00:34.265+05:30","deleted_at":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180,"created_at":"2025-06-22T23:00:34.282+05:30","updated_at":"2025-06-22T23:00:34.282+05:30","deleted_at":null},"message":"Book created successfully"}[0m
+[92m[23:00:34 -   41.196975ms][0m [94m[127.0.0.1:51608][0m [94m81f31d8d-6ac2-4af4-b227-ebb720276f0b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/* {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"id":"cfdc2575-75aa-48ce-91cc-2e002fa95607","name":"The Great Gatsby","author_id":"a878511f-aa86-42d9-82d5-7039e38ffe38","author":{"id":"a878511f-aa86-42d9-82d5-7039e38ffe38","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null,"created_at":"2025-06-22T23:00:34.975+05:30","updated_at":"2025-06-22T23:00:34.975+05:30","deleted_at":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180,"created_at":"2025-06-22T23:00:35+05:30","updated_at":"2025-06-22T23:00:35+05:30","deleted_at":null},"message":"Book created successfully"}[0m
+[92m[23:00:35 -   36.492946ms][0m [94m[127.0.0.1:51608][0m [94m82f31d8d-6ac2-4af4-b227-ebb720276f0b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"id":"49ceeecb-d30c-4269-830e-eb63235f0121","name":"The Great Gatsby","author_id":"534c136f-5ea5-4c8f-a58e-aa86c92200e9","author":{"id":"534c136f-5ea5-4c8f-a58e-aa86c92200e9","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null,"created_at":"2025-06-22T23:00:35.683+05:30","updated_at":"2025-06-22T23:00:35.683+05:30","deleted_at":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180,"created_at":"2025-06-22T23:00:35.708+05:30","updated_at":"2025-06-22T23:00:35.708+05:30","deleted_at":null},"message":"Book created successfully"}[0m
+[92m[23:00:36 -   32.581335ms][0m [94m[127.0.0.1:51608][0m [94m83f31d8d-6ac2-4af4-b227-ebb720276f0b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4 {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"id":"a2df9a05-a811-49bc-9b9f-1e56987ac32e","name":"The Great Gatsby","author_id":"330534f3-fab0-4359-9606-f128cd90fe1f","author":{"id":"330534f3-fab0-4359-9606-f128cd90fe1f","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null,"created_at":"2025-06-22T23:00:36.332+05:30","updated_at":"2025-06-22T23:00:36.332+05:30","deleted_at":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180,"created_at":"2025-06-22T23:00:36.352+05:30","updated_at":"2025-06-22T23:00:36.352+05:30","deleted_at":null},"message":"Book created successfully"}[0m
+[92m[23:00:36 -   35.297228ms][0m [94m[127.0.0.1:51608][0m [94m84f31d8d-6ac2-4af4-b227-ebb720276f0b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/* {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"id":"f89945b1-c89e-4464-84e8-af906a82b7ec","name":"The Great Gatsby","author_id":"570bda46-ed94-4bad-86b9-d23872810585","author":{"id":"570bda46-ed94-4bad-86b9-d23872810585","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null,"created_at":"2025-06-22T23:00:36.992+05:30","updated_at":"2025-06-22T23:00:36.992+05:30","deleted_at":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180,"created_at":"2025-06-22T23:00:37.012+05:30","updated_at":"2025-06-22T23:00:37.012+05:30","deleted_at":null},"message":"Book created successfully"}[0m
+[92m[23:00:37 -   32.504201ms][0m [94m[127.0.0.1:51608][0m [94m85f31d8d-6ac2-4af4-b227-ebb720276f0b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m User-Agent=PostmanRuntime/7.43.4&Accept=*/*&Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"id":"192f8842-41c8-4780-b719-a9a3e9becc0d","name":"The Great Gatsby","author_id":"d054ecf8-ab61-4941-a1a5-217e4659f589","author":{"id":"d054ecf8-ab61-4941-a1a5-217e4659f589","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null,"created_at":"2025-06-22T23:00:37.633+05:30","updated_at":"2025-06-22T23:00:37.633+05:30","deleted_at":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180,"created_at":"2025-06-22T23:00:37.653+05:30","updated_at":"2025-06-22T23:00:37.653+05:30","deleted_at":null},"message":"Book created successfully"}[0m
+[92m[23:00:38 -   32.362264ms][0m [94m[127.0.0.1:51608][0m [94m86f31d8d-6ac2-4af4-b227-ebb720276f0b[0m 201 - [POST] - [93m/api/v1/books/create[0m - [94m Accept-Encoding=gzip, deflate, br&Connection=keep-alive&Host=localhost:8080&Content-Length=448&Content-Type=application/json&User-Agent=PostmanRuntime/7.43.4&Accept=*/* {
+    "name": "The Great Gatsby",
+    "author": {
+        "name": "F. Scott Fitzgerald",
+        "bio": "F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century."
+    },
+    "publisher": "Charles Scribner's Sons",
+    "published_year": 1925,
+    "description": "A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.",
+    "price": 10.99,
+    "pages": 180
+} - {"data":{"id":"70a78fb0-6334-4760-a320-3dc0224419d2","name":"The Great Gatsby","author_id":"a0e043e8-d102-4c2d-a925-7be85d19ffdf","author":{"id":"a0e043e8-d102-4c2d-a925-7be85d19ffdf","name":"F. Scott Fitzgerald","bio":"F. Scott Fitzgerald was an American novelist widely regarded as one of the greatest writers of the 20th century.","books":null,"created_at":"2025-06-22T23:00:38.306+05:30","updated_at":"2025-06-22T23:00:38.306+05:30","deleted_at":null},"publisher":"Charles Scribner's Sons","published_year":1925,"description":"A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.","price":10.99,"pages":180,"created_at":"2025-06-22T23:00:38.325+05:30","updated_at":"2025-06-22T23:00:38.325+05:30","deleted_at":null},"message":"Book created successfully"}[0m
