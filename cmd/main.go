@@ -3,8 +3,9 @@ package main
 import (
 	"os"
 
-	"github.com/dtg-lucifer/go-bookstore/pkg/utils"
 	"github.com/joho/godotenv"
+
+	"github.com/dtg-lucifer/go-bookstore/pkg/utils"
 )
 
 func main() {
